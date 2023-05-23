@@ -44,3 +44,13 @@ b = c;
     console.log("a is " + a);
     console.log("b is " + b);
 }
+
+// String Concatenation Exercise
+
+var myName = ("Melih")
+var yourName = prompt("What is your name?")
+alert("Hello " + yourName + " welcome! My name is " + myName + ".")
+
+// Write your code below this line:
+
+/* Hello Lizzie welcome! My name is Melih. */
