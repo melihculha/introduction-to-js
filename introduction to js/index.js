@@ -54,3 +54,37 @@ alert("Hello " + yourName + " welcome! My name is " + myName + ".")
 // Write your code below this line:
 
 /* Hello Lizzie welcome! My name is Melih. */
+
+
+// String Lengths and Retrieving the Number of Characters
+
+var tweet = prompt("Compose your tweet:");
+var tweetCount = tweet.length;
+alert("You have written " + tweetCount + " characters, you have " + (140 - tweetCount) + " characters remaining.");
+
+// Slicing and Extracting Parts of a String
+
+var name = "Angela";
+name.slice (0,3);
+"Ang" 
+
+var tweet = prompt("Compose your tweet:");
+var tweetUnder140 = tweet.slice(0,140);
+alert(tweetUnder140);
+
+alert(prompt("Compose your tweet:").slice(0,140));
+
+// Changing Casing in Text
+
+var name = "Lizzie";
+name.toUpperCase();
+"LIZZIE"
+
+//To Save:
+var name = "Lizzie";
+name = name.toUpperCase();
+"LIZZIE"
+
+//Lower
+name = name.toLowerCase();
+"lizzie"
