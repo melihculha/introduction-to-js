@@ -88,3 +88,74 @@ name = name.toUpperCase();
 //Lower
 name = name.toLowerCase();
 "lizzie"
+
+
+// Challenge: Changing String Casing Solution
+
+//1 Create a var that stores the name that user enters via prompt.
+
+var name = prompt("What's your name?");
+"angela"
+ 
+//2 Capitalise the first letter of their name.
+
+//a isolate the first char
+
+ var firstChar = name.slice(0,1);
+ "a"
+
+//b Turn the first char to upper case
+
+var upperCaseFirstChar = firstChar.toUpperCase();
+"A"
+
+//c Isolate the rest of the name
+
+var restOfName = name.slice(1,name.length);
+"ngela"
+
+//d Change the rest of the name to lower case
+
+restOfName = restOfName.toLowerCase();
+
+//e concactenate the first char with the rest of the char
+
+var capitalisedName = upperCaseFirstChar + restOfName;
+"Angela"
+
+//3 We use the capitalised version of their name to greet them using an alert
+
+alert("Hello " + capitalisedName);
+
+
+// Basic Arithmetic and the Modulo Operator in Javascript
+
+9%6;
+"3"
+11%5;
+"1"
+12%8;
+"4"
+
+// Challenge: Dog Age to Human Age Formula 
+
+// Math Formula: humanAge = (dogAge - 2) x 4 + 21;
+
+var dogAge = prompt("How old is your dog?");
+
+var humanAge = ((dogAge - 2) * 4) + 21;
+
+alert("Your dog is" + humanAge + " years old in human years.");
+
+// Increment and Decrement Expressions 
+
+var x = 5;
+x = x + 1; //6
+
+//Increment
+
+x = x++; //6
+
+//Decrement 
+
+x = x--; //4 
