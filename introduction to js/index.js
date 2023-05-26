@@ -159,3 +159,105 @@ x = x++; //6
 //Decrement 
 
 x = x--; //4 
+
+
+// Creating and Calling Functions
+
+// Creating Function
+
+function getMilk() {
+    alert("leaveHouse");
+    alert("moveRight");
+    alert("moveRight");
+    alert("moveUp");
+    alert("moveUp");
+    alert("moveUp");
+    alert("moveRight");
+    alert("moveRight");
+    alert("buyMilk");
+    alert("moveLeft");
+    alert("moveLeft");
+    alert("moveDown");
+    alert("moveDown");
+    alert("moveDown");
+    alert("moveDown");
+    alert("moveLetrt");
+    alert("moveLeftt");
+    alert("enterHouse");
+}
+
+// Calling Function
+
+getMilk();
+
+// console.log
+
+function getMilk() {
+    console.log("leaveHouse");
+    console.log("moveRight");
+    console.log("moveRight");
+    console.log("moveUp");
+    console.log("moveUp");
+    console.log("moveUp");
+    console.log("moveUp");
+    console.log("moveRight");
+    console.log("moveRight");
+    console.log("moveLeft");
+    console.log("moveLeft");
+    console.log("moveDown");
+    console.log("moveDown");
+    console.log("moveDown");
+    console.log("moveDown");
+    console.log("moveLeft");
+    console.log("moveLeft");
+    console.log("enterHouse");
+}
+
+// Function Challenge The Karel Robot
+
+// https://stanford.edu/~cpiech/karel/ide.html
+
+// https://stanford.edu/~cpiech/karel/images/reference.png
+
+function main() {
+    beepersRight();
+    goUpTurnLeft();
+    beepersLeft();
+    goUpTurnRight();
+    beepersRight();
+    goUpTurnLeft();
+    beepersLeft();
+    goUpTurnRight();
+    beepersRight();
+}
+
+function goUpTurnRight() {
+    turnRight();
+    move();
+    turnRight();
+}
+
+function goUpTurnLeft() {
+    turnLeft();
+    move();
+    turnLeft();
+}
+
+function beepersRight() {
+    putBeeper();
+    move();
+    move();
+    putBeeper();
+    move();
+    move();
+    putBeeper();
+}
+
+function beepersLeft() {
+    move();
+    putBeeper();
+    move();
+    move();
+    putBeeper();
+    move();
+}
