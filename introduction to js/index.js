@@ -261,3 +261,40 @@ function beepersLeft() {
     putBeeper();
     move();
 }
+
+
+// Parameters and Arguments
+
+// Input
+
+function getMilk(bottless) {
+    alert("leaveHouse");
+    alert("moveRight");
+    alert("moveRight");
+    alert("moveUp");
+    alert("moveUp");
+    alert("moveUp");
+    alert("moveRight");
+    alert("moveRight");
+    alert("buy" + bottless + "botless of Milk");
+    alert("moveLeft");
+    alert("moveLeft");
+    alert("moveDown");
+    alert("moveDown");
+    alert("moveDown");
+    alert("moveDown");
+    alert("moveLetrt");
+    alert("moveLeftt");
+    alert("enterHouse");
+}
+
+// Creating the function
+
+function getMilk(bottless) {
+    var cost = bottless * 1.5;
+    //Do something with cost
+}
+
+// Calling the function 
+
+getMilk(2);
