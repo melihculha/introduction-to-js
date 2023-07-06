@@ -312,3 +312,42 @@ function lifeInWeeks(age) {
 }
 
 lifeInWeeks(21);
+
+// Outputs & Return Values
+
+function getMilk(money) {   
+    console.log("leaveHouse");
+    console.log("moveRight");
+    console.log("moveRight");
+    console.log("moveUp");
+    console.log("moveUp");
+    console.log("moveUp");
+    console.log("moveUp");
+    console.log("moveRight");
+    console.log("moveRight");
+    var numBottles = money / 1.5;
+    alert("buy " + numBottles + " bottles of milk.")
+    console.log("moveLeft");
+    console.log("moveLeft");
+    console.log("moveDown");
+    console.log("moveDown");
+    console.log("moveDown");
+    console.log("moveDown");
+    console.log("moveLeft");
+    console.log("moveLeft");
+    console.log("enterHouse");
+    return money % 1.5;
+  }
+
+  getMilk(6);
+
+  // buy 4 bottles of milk. Return = 0
+
+  getMilk(10)
+
+  //buy 6 bottles of milk. Return = 1
+
+// Change
+
+var change = getMilk(4)
+//change = 1
